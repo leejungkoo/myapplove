@@ -5,22 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="write버튼"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="352dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="글추가"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-
+        android:text="통계"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="249dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

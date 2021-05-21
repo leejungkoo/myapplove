@@ -12,6 +12,9 @@
 
 
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".WriteActivity"></activity>
+        <activity android:name=".StatisticsActivity"></activity>
         <activity android:name=".SubActivity"></activity>
         <activity android:name=".IntroActivity">
             <intent-filter>

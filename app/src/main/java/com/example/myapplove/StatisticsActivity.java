@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 
-public class WriteActivity extends AppCompatActivity {
+public class StatisticsActivity extends AppCompatActivity {
 
 
 
@@ -15,7 +15,7 @@ public class WriteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.write_activity);
+        setContentView(R.layout.statistics_activity);
 
         Intent intent = getIntent();
         //Intent intent=new Intent(this.getIntent());
