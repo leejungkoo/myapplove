@@ -1,4 +1,4 @@
-package fragments;
+/*package fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,3 +19,4 @@ public class MemoEditFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_momo_edit, container, false);
     }
 }
+*/
