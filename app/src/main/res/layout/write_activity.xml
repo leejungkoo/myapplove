@@ -18,7 +18,7 @@
             android:layout_weight="1"
             android:text="불러오기"
             android:onClick="onClick"/>
-
+컨트롤 시프트 f?
         <Button
             android:id="@+id/save_btn"
             android:layout_width="wrap_content"
