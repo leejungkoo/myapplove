@@ -20,6 +20,21 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildscript {
+        repositories {
+            google()
+            jcenter()
+
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:3.4.1'
+            classpath "io.realm:realm-gradle-plugin:5.11.0"
+            // NOTE: Do not place your application dependencies here; they belong
+            // in the individual module build.gradle files
+        }
+    }
+
+
     buildTypes {
         release {
             minifyEnabled false
@@ -47,6 +62,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     apply plugin: 'com.android.application'
     apply plugin: 'kotlin-kapt'  // Realm 데이터베이스 준비
-    apply plugin: 'realm-android'//저장햇어요
+    apply plugin: 'realm-android'//저장햇어요 plugin추가
     //여기?
 }
